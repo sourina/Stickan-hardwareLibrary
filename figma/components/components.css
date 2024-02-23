@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kiwi+Maru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karantina:wght@300;400;700&family=Kiwi+Maru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karantina:wght@300;400;700&family=Katibeh&family=Kiwi+Maru&display=swap");
+
+/* Header */
+.header {
+  width: 380px;
+  height: 130px;
+  position: relative;
+  background: #6a759b;
+}
+
+.header .logoHeaderBcg {
+  width: 120px;
+  height: 120px;
+  left: 17px;
+  top: 4px;
+  position: absolute;
+  opacity: 0.8;
+  background: #b9d4f1;
+  border-radius: 20px;
+}
+
+.header .logoHeaderBcg .logoImg {
+  width: 100px;
+  height: 100px;
+  left: 10px;
+  top: 10px;
+  position: absolute;
+}
+.header .headerText {
+  width: 201px;
+  height: 57px;
+  left: 166px;
+  top: 29px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: Kaushan Script;
+  font-weight: 400;
+  letter-spacing: 0.72px;
+}
+
+/* Navbar */
+.navbar {
+  background: #b9d4f1;
+  display: flex;
+  align-items: center;
+}
+
+.nav_container {
+  width: 370px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0px;
+}
+.nav_container a {
+  text-decoration: none;
+  color: black;
+}
+.navbar .home,
+.navbar .aboutUs,
+.navbar .products,
+.navbar .search .search_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66px;
+  height: 31px;
+  left: 8px;
+  top: 12px;
+  text-align: center;
+  font-size: 11px;
+  font-family: Josefin Sans;
+  font-weight: 700;
+  background: #f1f6f8;
+  list-style: none;
+}
+.navbar .search {
+  display: flex;
+  flex-direction: row;
+}
+.navbar .search .search_img {
+  width: 26px;
+  height: 31px;
+  left: 86px;
+  top: 3px;
+}
+.navbar .cart,
+.navbar .profile {
+  width: 26px;
+  height: 31px;
+  left: 86px;
+  top: 3px;
+}
+
+.profile_img {
+  width: 26px;
+  height: 31px;
+}
+#dropdwn {
+  position: relative;
+  left: 3px;
+  bottom: 8px;
+  width: 20px;
+  height: 10px;
+}
+select {
+  border: 1px solid #21273d;
+}
+
+/* footer */
+.footer {
+  width: 380px;
+  height: 123px;
+  background: #6a759b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  bottom: 40px;
+}
+.footer .contactUs {
+  width: 115px;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fbfbfb;
+  text-align: center;
+  font-family: Kiwi Maru;
+}
+.footer .contactUs .contactUs_head {
+  width: 105px;
+  height: 28px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer .contactUs .address {
+  width: 115px;
+  height: 33px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+}
+.footer .contactUs .phone {
+  width: 103px;
+  height: 23px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+}
+.footer .logoFooter {
+  width: 162px;
+  height: 121px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.footer .logoFooter .logoBcg {
+  width: 152px;
+  height: 62px;
+  /* position: relative; */
+  opacity: 0.8;
+  background: #b9d4f1;
+  border-radius: 10px;
+}
+
+.footer .logoFooter .footerImg {
+  position: absolute;
+}
+.footer .logoFooter .footerImg .logoImgFooter {
+  width: 139px;
+  height: 50px;
+}
+.followUs {
+  display: flex;
+  flex-direction: column;
+}
+.followUs .followUs_head {
+  width: 110px;
+  height: 28px;
+  text-align: center;
+  color: #fbfbfb;
+  font-size: 16px;
+  font-family: Kiwi Maru;
+  font-weight: 500;
+}
+.followUs .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.followUs .icons .iconBcg {
+  width: 22px;
+  height: 22px;
+  left: 0px;
+  top: 0px;
+  position: relative;
+  background: #b9d4f1;
+  border-radius: 9999px;
+}
+.followUs .icons .iconBcg .logoIcon {
+  width: 16px;
+  height: 16px;
+  left: 3px;
+  top: 3px;
+  position: absolute;
+}
+
+/* heading style */
+.heading {
+  width: 215px;
+  height: 51px;
+}
+.heading .heading_text {
+  width: 224px;
+  height: 51px;
+  left: 10px;
+  top: 0px;
+  text-align: center;
+  color: #b9d4f1;
+  font-size: 36px;
+  font-family: Karantina;
+  font-weight: 400;
+  letter-spacing: 0.72px;
+}
+
+/* button styles */
+.button1 {
+  width: 117px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  background: #d9d9d9;
+  border-radius: 10px;
+}
+
+.button2 {
+  width: 45px;
+  height: 20px;
+  background: #d9d9d9;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-size: 12px;
+  font-family: Katibeh;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  word-wrap: break-word;
+  align-items: center;
+  border: 0px;
+}
+
+.button3 {
+  width: 158px;
+  height: 40px;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-family: Kiwi Maru;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+}
+/* label style */
+.label {
+  width: 310px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #21273d;
+}
+.label .label_text {
+  width: 151px;
+  height: 15px;
+  text-align: left;
+  color: white;
+  font-size: 24px;
+  font-family: Katibeh;
+  font-weight: 400;
+  letter-spacing: 0.72px;
+}
+.label .labelInput {
+  width: 280px;
+  height: 35px;
+  background: #6a759b;
+  border: 2px #fbfbfb solid;
+}
